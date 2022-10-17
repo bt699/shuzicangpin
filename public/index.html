@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React fiveday</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+	<script>
+		var y=1
+		x=y=typeof x
+		console.log(x);
+		
+		var user ={name:'tony',children:['beny','ken']}
+		var data = {name:'lily',...user}
+		console.log(data);
+		
+		var data=6
+		function Data(){
+			return this.data=7
+			//console.log(this.data);
+		}
+		Data.prototype.getData=()=>{
+			return this.data
+		}
+		console.log(data);
+		console.log(new Data().getData());
+	</script>
+	<style>
+		body{
+			margin: 0px;
+			padding: 0px;
+			height: 9999px;
+		}
+		.popup__wrapper{
+			display:none
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0,0,0,0.5);
+			z-index: 999;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			display:none
+		}
+		/* body{
+			margin: 0;
+			padding: 0;
+			height: 9999px;
+		}
+		
+		.popup{
+			box-sizing: border-box;
+			width: 670px;
+			height: 300px;
+			background: #fff;
+			text-align: center;
+			padding: 70px 10px 20px 10px;
+			border-radius: 4px;
+		}
+		.popup__title{
+			font-size: 30px;
+			font-weight: 600px;
+			color: #004165;
+			margin-bottom: 20px;
+		}
+		.popup_btnWrapper{
+			width: 50%;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+		}
+		.popup__text{
+			font-size: 20px;
+			margin-bottom: 50px;
+		}
+		#button{
+			width: 154px;
+			cursor: pointer;
+			border-radius: 4px;
+			line-height: 45px;
+			font-weight: 600;
+		}
+		
+		.popup__yesBtn{
+			color: #fff;
+			background-color: #007dba;
+			border: 1px solid #006ba1;
+		} */
+		.listtext .adm-list-item-description{
+			color: #ffffff;
+			margin-left: 15px;
+			
+		}
+		.listtext .adm-list{
+			--border-top:#000;
+			--border-bottom:#000;
+		}
+		
+		.listtext {
+			
+			--adm-color-background:#262425;
+		}
+		
+		:root:root {
+		   
+		   
+		  
+		  
+		  
+		}
+		.adm-card{
+			background: #262425;
+		}
+		.adm-badge{
+			border-radius: 5px;
+		}
+		
+		
+	</style>
+	<div class="popup__wrapper" >
+		<div class="popup">
+			<div class="popup__title">标题</div>
+			<div class="popup__text">正文</div>
+			<div class="popup_btnWrapper">
+				<button class="popup__yesBtn">yes</button>
+				<button class="popup__noBtn">No</button>				
+			</div>
+			
+		</div>
+		
+	</div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
