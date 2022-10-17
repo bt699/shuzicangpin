@@ -1,0 +1,85 @@
+html,body{
+	height: 100%;
+	font-family: 'Microsoft YaHei';
+	color: #fff;
+	/* background-color: #2b292a; */
+	background-color: #1d1b1c;
+}
+* {
+	box-sizing: border-box;
+}
+
+.home {
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	background-color: #2a2a2c;
+	z-index: 3;
+}
+
+
+
+.home .adm-tab-bar-item{
+	color: #9b999a;
+}
+
+.home .adm-tab-bar-item-active{
+	color: #d8cca3;
+}
+.home.adm-tab-bar{
+	
+	background-color: #2b292a;
+}
+
+.listtext {
+	
+			color: #000;
+			position: relative;
+		
+		}
+		
+.listtext .img {
+	position: absolute;
+	left: 10px;
+	top: 60px;
+}
+
+ .price{
+	position: absolute;
+	left: 300px;
+	top: 45px;
+	right: 0px;	
+	font-size: 28px;
+	color: #c9c6a7;
+}
+
+.listtext .adm-list-item-content-main{
+	display: flex;
+	flex-direction:column;
+	align-items: flex-start;
+	
+	
+}
+
+.listtext .adm-list-item-content-arrow{
+	position: relative;
+	
+}
+.listtext .arrlow{
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	font-size: 22px;
+	color: #cfcaa9;
+}
+
+.countdownb b{
+	background-color: #d4cbac;
+	color: #968b6d;
+	margin: 2px;	
+	padding: 2px;
+	
+}
+
+
+

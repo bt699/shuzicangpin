@@ -1,0 +1,19 @@
+.zhengtodo{
+	margin: 20px;
+	margin-top: 10px;
+	background-color: #1d1b1c;
+}
+
+.zhengtodo .adm-list {
+	--adm-color-background: linear-gradient(50deg, #909090, #313131);
+	--border-bottom: solid 0px;
+	--adm-color-border: linear-gradient(50deg, #909090, #313131);
+	--border-top: solid 1px var(--adm-color-border);
+	--border-radius:10px
+}
+
+.zhengtodo .adm-card{
+	border-radius: 10px;
+	background: linear-gradient(50deg, #909090, #313131);
+	color:#cac3a7
+}

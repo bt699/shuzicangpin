@@ -1,0 +1,29 @@
+.zhengcenter{
+	margin: 20px;
+	margin-top: 10px;
+	background-color: #1d1b1c;	
+}
+
+
+
+.zhengcenter .adm-grid-item{
+	text-align: right;
+	padding-top: 10px;
+}
+.zhengcenter .adm-list-item{
+	background-color: #1d1b1c;
+	color:#dddddd
+}
+
+.zhengcenter {
+	--adm-avatar-border-radius:20px;
+	--size:55px
+	--adm-color-background:
+}
+
+.zhengcenter .adm-list{
+	    --adm-color-border: #000000;
+	    --border-inner: solid 1px var(--adm-color-border);
+	    --border-top: solid 1px var(--adm-color-border);
+	    --border-bottom: solid 1px var(--adm-color-border);
+}

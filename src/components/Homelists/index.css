@@ -1,0 +1,66 @@
+.listimg{
+	position: relative;
+}
+
+.listimg .icon{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+.icon .adm-button{
+	background-color: #544e4e;
+	border-color: #544e4e;
+}
+
+
+
+
+
+.listtext .adm-list-item-title{
+	color: #aeae9c;
+}, 
+
+.listtext .adm-list-item-description{
+	color: #ff0000;
+	
+}
+
+.listbutton{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	
+}
+.listbutton .adm-badge-content{
+	padding: 3px 10px;
+}
+.listbutton .button{
+	position: absolute;
+	left: 40px;
+	top: 0;
+	z-index: 0;
+	
+}
+
+.listbutton .xl{
+	z-index: 1;
+}
+
+.listbutton .xl .adm-badge-content{
+		background-color:#dacfa3;
+		color: #959561;
+		border-radius: 5px;
+	}
+
+.listbutton .button .adm-badge-content{
+		background-color:#646263;
+		color: #b6b39c;
+		border-radius: 5px;
+	}
+.listbutton .shuzi{
+	align-self: flex-end;
+	justify-self: end;
+}
